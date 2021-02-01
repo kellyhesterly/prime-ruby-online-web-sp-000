@@ -1,9 +1,8 @@
 require 'pry'
 
-def prime?(numbers)
-  numbers = (1..)
-  numbers.select.to_a do |number|
-    if (number % number == 1) && number > 1
+def prime?(number)
+  number.select do |n|
+    if (n % n == 1) && n > 1
     return true
   end
   end
