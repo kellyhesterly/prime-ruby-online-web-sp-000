@@ -6,7 +6,7 @@ def prime?(n)
     return true
   elsif n == 2
     return true
-  else
+  elsif n.negative?
     return false
   end
 end
