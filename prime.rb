@@ -5,8 +5,8 @@ def prime?(num)
   num.each do |n|
     if num % n == 0
       return false
-    elsif !(n.negative?)
-      return true
+    elsif n.negative?
+      return false
     end
     return true
   end
