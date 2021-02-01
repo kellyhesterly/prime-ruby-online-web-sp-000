@@ -8,7 +8,5 @@ def prime?(n)
     return true
   elsif n.negative?
     return false
-  else
-    return false
   end
 end
